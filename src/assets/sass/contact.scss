@@ -41,6 +41,7 @@
         .cs-title {
             max-width: calc(800 / 16 * 1rem);
             text-align: left;
+            text-transform: uppercase;
         }
 
         .cs-text {
@@ -65,11 +66,13 @@
                 line-height: 1.5em;
                 font-weight: 700;
                 color: var(--headerColor);
+                text-transform: uppercase;
             }
 
             .cs-label-message {
                 /* 32px - 48px */
                 margin-bottom: clamp(2rem, 6.3vw, 3rem);
+                text-transform: uppercase;
             }
 
             input,

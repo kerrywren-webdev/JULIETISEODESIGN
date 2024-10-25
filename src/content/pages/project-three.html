@@ -1,0 +1,119 @@
+---
+title: 'Hoboken | Julie Tiseo Design'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'project-three/'
+eleventyNavigation:
+    key: Project Three
+    order: 3300
+    parent: Projects
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+    <h1 id="home-h">Hoboken</h1>
+    <picture>
+        <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenKitchen1.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenKitchen1.jpg">
+        <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenKitchen1.jpg" alt="Hoboken Kitchen" loading="eager" width="2500" height="1667">
+    </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!-- Row 1 -->
+            <div class="cs-row cs-row-1">
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenBathroom.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenBathroom.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenBathroom.jpg" alt="Hoboken Bathroom" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenBathroom2.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenBathroom2.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenBathroom2.jpg" alt="Hoboken Bathroom 2" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture3">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenBedroom.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenBedroom.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenBedroom.jpg" alt="Hoboken Bedroom" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture4">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenDecor.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenDecor.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenDecor.jpg" alt="Hoboken Decor" loading="lazy" width="400" height="560">
+                </picture>
+            </div>
+    
+            <!-- Row 2 -->
+            <div class="cs-row cs-row-2">
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenDecor2.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenDecor2.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenDecor2.jpg" alt="Hoboken Decor 2" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenDog.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenDog.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenDog.jpg" alt="Hoboken Dog" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture3">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenKitchen.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenKitchen.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenKitchen.jpg" alt="Hoboken Kitchen" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture4">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenKitchen1.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenKitchen1.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenKitchen1.jpg" alt="Hoboken Kitchen 1" loading="lazy" width="400" height="560">
+                </picture>
+            </div>
+    
+            <!-- Row 3 -->
+            <div class="cs-row cs-row-3">
+                <picture class="cs-picture cs-picture1">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenLivingRoom1.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenLivingRoom1.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenLivingRoom1.jpg" alt="Hoboken Living Room 1" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture2">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenNursery.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenNursery.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenNursery.jpg" alt="Hoboken Nursery" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture3">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenLivingRoom.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenLivingRoom.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenLivingRoom.jpg" alt="Hoboken Living Room" loading="lazy" width="400" height="560">
+                </picture>
+                <picture class="cs-picture cs-picture4">
+                    <source media="(max-width: 600px)" srcset="/assets/images/Hoboken/HobokenDecor1.jpg">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Hoboken/HobokenDecor1.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Hoboken/HobokenDecor1.jpg" alt="Hoboken Decor 1" loading="lazy" width="400" height="560">
+                </picture>
+            </div>
+        </div>
+    </div>
+    </section>    
+
+
+{% endblock %}

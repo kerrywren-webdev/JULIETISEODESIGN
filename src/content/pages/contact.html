@@ -13,6 +13,9 @@ eleventyNavigation:
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 {% endblock %}
 
 {% block body %}
@@ -24,9 +27,9 @@ eleventyNavigation:
     <section id="int-hero">
         <h1 id="home-h">Contact Us</h1>
         <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+            <source media="(max-width: 600px)" srcset="/assets/images/Tribeca/TribecaDecor.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/Tribeca/TribecaDecor.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/Tribeca/TribecaDecor.jpg" alt="Tribeca Decor" loading="eager" width="2500" height="1667">
         </picture>
     </section>
 
@@ -40,9 +43,6 @@ eleventyNavigation:
                 <div class="cs-content">
                     <span class="cs-topper">Contact</span>
                     <h2 class="cs-title">Get in Touch</h2>
-                    <p class="cs-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.
-                    </p>
                 </div>
                 <label>
                     Name
@@ -52,13 +52,13 @@ eleventyNavigation:
                     Email
                     <input required type="text" id="email" name="email" placeholder="Email">
                 </label>
-                <label>
-                    Phone
-                    <input required type="text" id="phone" name="phone" placeholder="Phone">
+                <label class="cs-label-message">
+                    Project Description
+                    <textarea required name="Project" id="project" placeholder="Project Description"></textarea>
                 </label>
-                <label>
-                    How Did You Find Us
-                    <input type="text" id="find" name="find-us" placeholder="How did you find us?">
+                <label class="cs-label-message">
+                    Estimated Budget
+                    <textarea required name="Budget" id="budget" placeholder="Estimated Budget"></textarea>
                 </label>
                 <label class="cs-label-message">
                     Message
@@ -70,9 +70,6 @@ eleventyNavigation:
                 <!--Email-->
                 <span class="cs-header">Email</span>
                 <a class="cs-link" href="mailto:{{client.email}}">{{client.email}}</a>
-                <!--Phone-->
-                <span class="cs-header">Phone</span>
-                <a class="cs-link" href="tel:{{client.phoneForTel}}">{{client.phoneFormatted}}</a>
                 <!--Address-->
                 <span class="cs-header">Address</span>
                 <a class="cs-link" href="{{client.address.mapLink}}">
@@ -89,8 +86,8 @@ eleventyNavigation:
 
                 <!-- Background Image-->
                 <picture class="cs-bg-picture">
-                    <source media="(min-width: 601px)" srcset="/assets/images/skyscraper.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/skyscraper.jpg" alt="building" loading="lazy" width="2500" height="1667">
+                    <source media="(min-width: 601px)" srcset="/assets/images/Tribeca/TribecaBathroom.jpg">
+                    <img aria-hidden="true" decoding="async" src="/assets/images/Tribeca/TribecaBathroom.jpg" alt="tile" loading="lazy" width="2500" height="1667">
                 </picture>
 
             </div>

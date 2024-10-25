@@ -1,20 +1,18 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Julie Tiseo Design",
+    "email": "julietiseo@gmail.com",
     "address": {
         "lineOne": "First Address Line",
         "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "city": "Hoboken",
+        "state": "NJ",
+        "zip": "07030",
+        "mapLink": "https://maps.app.goo.gl/AGN9hqYUiGeRSs646"
     },
     "socials": {
         "facebook": "https://www.facebook.com/",
         "instagram": "https://www.instagram.com/",
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.example.com"
+    "domain": "https://www.julietiseo.com"
 };

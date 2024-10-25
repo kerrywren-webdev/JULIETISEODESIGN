@@ -1,5 +1,5 @@
 ---
-title: 'About | Code Stitch Web Designs'
+title: 'About | Julie Tiseo Designs'
 description: 'Meta description for the page'
 preloadImg: '/assets/images/cabinets2.jpg'
 permalink: 'about/'
@@ -12,6 +12,9 @@ eleventyNavigation:
 
 {% block head %}
     <link rel="stylesheet" href="/assets/css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 {% endblock %}
 
 {% block body %}
@@ -20,57 +23,41 @@ eleventyNavigation:
     <!-- ============================================ -->
 
     <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
+        <h1 id="home-h">About Julie</h1>
         <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+            <source media="(max-width: 600px)" srcset="/assets/images/JT-landing.jpg">
+            <source media="(min-width: 601px)" srcset="/assets/images/JT-landing.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/JT-landing.jpg" alt="kitchen" loading="eager" width="2391" height="1344">
         </picture>
-
     </section>
 
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
 
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
-                </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
-            </div>
+<section id="sbs-578">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/julietiseo.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/julietiseo.jpg">
+            <img loading="lazy" decoding="async" src="/assets/images/julietiseo.jpg" alt="room" width="3648" height="5472">
+        </picture>
+        <div class="cs-content">
+            <h2 class="cs-title">Hi! I'm Julie Tiseo.</h2>
+            <p class="cs-text">
+                For as long as I can remember, I’ve been dreaming up and designing interiors. Growing up in the residential development business gave me an early start in creating and building. I honed my skills at the New York School of Interior Design, where I earned a Master’s Degree in Fine Arts in Interior Design.
+            </p>
+            <p class="cs-text">
+                I’ve had the pleasure of designing and managing interior projects across the country, from large restaurants to cozy apartments. But my true passion is transforming existing homes into stylish, comfortable spaces that reflect your unique style. I believe your home should be a true expression of you, a place where you feel proud and relaxed in your own private world.
+            </p>
+            <p class="cs-text">
+                I currently reside in Hoboken, New Jersey, with my husband Rob, our son Albie, daughter Rhea, and our dog Patrick.
+            </p>
+            <a href="" class="cs-button-solid">View My Work</a>
         </div>
-    </section>
-
-    {% include 'components/cta.html' %}
+    </div>
+</section>
 
 {% endblock %}

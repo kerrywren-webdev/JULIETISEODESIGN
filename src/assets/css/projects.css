@@ -208,10 +208,8 @@
 @media only screen and (min-width: 0rem) {
   #gallery {
     position: relative;
-    /* Prevents overflow from the image going off screen */
     overflow: hidden;
     padding: var(--sectionPadding);
-    /* Centers button */
     text-align: center;
   }
   #gallery .cs-container {
@@ -227,7 +225,6 @@
     max-width: 82.625em;
     width: 100%;
     padding: 0;
-    /* used rem so it doesn't scale with the font size of on parent */
     font-size: min(1.1vw, 1em);
     gap: 1.875em;
   }
@@ -251,15 +248,27 @@
     object-fit: cover;
   }
   #gallery .cs-row-1 .cs-picture1 {
-    height: 35.4375em;
+    height: 35.4em;
     width: 26.25em;
   }
   #gallery .cs-row-1 .cs-picture2 {
-    height: 39.3125em;
+    height: 39.3em;
     width: 26.25em;
   }
   #gallery .cs-row-1 .cs-picture3 {
     height: 32em;
+    width: 26.25em;
+  }
+  #gallery .cs-row-1 .cs-picture4 {
+    height: 34em;
+    width: 26.25em;
+  }
+  #gallery .cs-row-1 .cs-picture5 {
+    height: 33em;
+    width: 26.25em;
+  }
+  #gallery .cs-row-1 .cs-picture6 {
+    height: 28.25em;
     width: 26.25em;
   }
   #gallery .cs-row-2 .cs-picture1 {
@@ -267,15 +276,23 @@
     width: 26.25em;
   }
   #gallery .cs-row-2 .cs-picture2 {
-    height: 32.3125em;
+    height: 32.3em;
     width: 26.25em;
   }
   #gallery .cs-row-2 .cs-picture3 {
-    height: 39.3125em;
+    height: 39.3em;
+    width: 26.25em;
+  }
+  #gallery .cs-row-2 .cs-picture4 {
+    height: 34em;
+    width: 26.25em;
+  }
+  #gallery .cs-row-2 .cs-picture5 {
+    height: 32em;
     width: 26.25em;
   }
   #gallery .cs-row-3 .cs-picture1 {
-    height: 39.0625em;
+    height: 39em;
     width: 26.25em;
   }
   #gallery .cs-row-3 .cs-picture2 {
@@ -283,7 +300,19 @@
     width: 26.25em;
   }
   #gallery .cs-row-3 .cs-picture3 {
-    height: 39.3125em;
+    height: 39.3em;
+    width: 26.25em;
+  }
+  #gallery .cs-row-3 .cs-picture4 {
+    height: 34em;
+    width: 26.25em;
+  }
+  #gallery .cs-row-3 .cs-picture5 {
+    height: 33em;
+    width: 26.25em;
+  }
+  #gallery .cs-row-3 .cs-picture6 {
+    height: 28.25em;
     width: 26.25em;
   }
 }
